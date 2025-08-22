@@ -1,16 +1,7 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
+    { "src": "package.json", "use": "@vercel/next" }
   ],
-  "installCommand": "pnpm install --no-frozen-lockfile",
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ]
+  "installCommand": "pnpm install --no-frozen-lockfile"
 }
